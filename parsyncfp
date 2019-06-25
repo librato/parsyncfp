@@ -215,7 +215,7 @@ else {$FPARTSIZE_N = $FPARTSIZE;}
 if ($DEBUG) {&debug(__LINE__, "FPARTSIZE = $FPARTSIZE\nFPARTSIZE_N = $FPARTSIZE_N");}
 
 # fix .ssh/config file to eliminate wonky errors.
-fix_ssh_config();
+# fix_ssh_config();
 
 # ?? Is this nec anymore?  If so, need to bring it up to date with the new naming conventions
 # see: https://goo.gl/kDLr8b
