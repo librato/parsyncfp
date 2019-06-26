@@ -733,8 +733,8 @@ sub getavgnetbw ($$$) {
 
 
 sub pause {
-    print "Press [ENTER] to continue.\n";
-    my $tmp = <STDIN>;
+    print "Bypassing this Press [ENTER] to continue crap.\n";
+    # my $tmp = <STDIN>;
 }
 
 # color info string ($) blue
